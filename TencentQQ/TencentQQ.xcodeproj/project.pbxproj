@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A174ADE51DF26A0400938083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A174ADE41DF26A0400938083 /* main.m */; };
+		A174ADE81DF26A0400938083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A174ADE71DF26A0400938083 /* AppDelegate.m */; };
+		A174ADEB1DF26A0400938083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A174ADEA1DF26A0400938083 /* ViewController.m */; };
+		A174ADEE1DF26A0400938083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A174ADEC1DF26A0400938083 /* Main.storyboard */; };
+		A174ADF01DF26A0400938083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A174ADEF1DF26A0400938083 /* Assets.xcassets */; };
+		A174ADF31DF26A0400938083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A174ADF11DF26A0400938083 /* LaunchScreen.storyboard */; };
+		A174ADFC1DF26D4B00938083 /* QQFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A174ADFB1DF26D4B00938083 /* QQFriendCell.m */; };
+		A174AE001DF27D1200938083 /* buddy_header_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A174ADFE1DF27D1200938083 /* buddy_header_arrow_down@2x.png */; };
+		A174AE011DF27D1200938083 /* buddy_header_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A174ADFF1DF27D1200938083 /* buddy_header_arrow_right@2x.png */; };
+		B92EE26140515344AAC087CC /* libPods-TencentQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F53CF2E4A69A753BA70438D2 /* libPods-TencentQQ.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1005C9FA0F54E26EB510F718 /* Pods-TencentQQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentQQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-TencentQQ/Pods-TencentQQ.release.xcconfig"; sourceTree = "<group>"; };
+		15B6B85EB59AD1A3F1F74BF2 /* Pods-TencentQQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentQQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TencentQQ/Pods-TencentQQ.debug.xcconfig"; sourceTree = "<group>"; };
+		A174ADE01DF26A0400938083 /* TencentQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TencentQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A174ADE41DF26A0400938083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A174ADE61DF26A0400938083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A174ADE71DF26A0400938083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A174ADE91DF26A0400938083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A174ADEA1DF26A0400938083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A174ADED1DF26A0400938083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A174ADEF1DF26A0400938083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A174ADF21DF26A0400938083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A174ADF41DF26A0400938083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A174ADFA1DF26D4B00938083 /* QQFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQFriendCell.h; sourceTree = "<group>"; };
+		A174ADFB1DF26D4B00938083 /* QQFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQFriendCell.m; sourceTree = "<group>"; };
+		A174ADFD1DF2766200938083 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A174ADFE1DF27D1200938083 /* buddy_header_arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddy_header_arrow_down@2x.png"; sourceTree = "<group>"; };
+		A174ADFF1DF27D1200938083 /* buddy_header_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddy_header_arrow_right@2x.png"; sourceTree = "<group>"; };
+		F53CF2E4A69A753BA70438D2 /* libPods-TencentQQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TencentQQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A174ADDD1DF26A0400938083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92EE26140515344AAC087CC /* libPods-TencentQQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D85DC5B18AEA0B7BBCDE4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B6B85EB59AD1A3F1F74BF2 /* Pods-TencentQQ.debug.xcconfig */,
+				1005C9FA0F54E26EB510F718 /* Pods-TencentQQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A174ADD71DF26A0400938083 = {
+			isa = PBXGroup;
+			children = (
+				A174ADE21DF26A0400938083 /* TencentQQ */,
+				A174ADE11DF26A0400938083 /* Products */,
+				01D85DC5B18AEA0B7BBCDE4B /* Pods */,
+				E3E6267E048A79F59A0762E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A174ADE11DF26A0400938083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A174ADE01DF26A0400938083 /* TencentQQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A174ADE21DF26A0400938083 /* TencentQQ */ = {
+			isa = PBXGroup;
+			children = (
+				A174ADE61DF26A0400938083 /* AppDelegate.h */,
+				A174ADE71DF26A0400938083 /* AppDelegate.m */,
+				A174ADE91DF26A0400938083 /* ViewController.h */,
+				A174ADEA1DF26A0400938083 /* ViewController.m */,
+				A174ADFA1DF26D4B00938083 /* QQFriendCell.h */,
+				A174ADFB1DF26D4B00938083 /* QQFriendCell.m */,
+				A174ADEC1DF26A0400938083 /* Main.storyboard */,
+				A174ADEF1DF26A0400938083 /* Assets.xcassets */,
+				A174ADFE1DF27D1200938083 /* buddy_header_arrow_down@2x.png */,
+				A174ADFF1DF27D1200938083 /* buddy_header_arrow_right@2x.png */,
+				A174ADF11DF26A0400938083 /* LaunchScreen.storyboard */,
+				A174ADF41DF26A0400938083 /* Info.plist */,
+				A174ADE31DF26A0400938083 /* Supporting Files */,
+			);
+			path = TencentQQ;
+			sourceTree = "<group>";
+		};
+		A174ADE31DF26A0400938083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A174ADE41DF26A0400938083 /* main.m */,
+				A174ADFD1DF2766200938083 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3E6267E048A79F59A0762E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53CF2E4A69A753BA70438D2 /* libPods-TencentQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A174ADDF1DF26A0400938083 /* TencentQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A174ADF71DF26A0400938083 /* Build configuration list for PBXNativeTarget "TencentQQ" */;
+			buildPhases = (
+				F16093933890DDF30F33C199 /* 📦 Check Pods Manifest.lock */,
+				A174ADDC1DF26A0400938083 /* Sources */,
+				A174ADDD1DF26A0400938083 /* Frameworks */,
+				A174ADDE1DF26A0400938083 /* Resources */,
+				D941FDCFF8CB26FF29E583BC /* 📦 Embed Pods Frameworks */,
+				03E6CED2C79AE2411D8C626B /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TencentQQ;
+			productName = TencentQQ;
+			productReference = A174ADE01DF26A0400938083 /* TencentQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A174ADD81DF26A0400938083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Abner_G;
+				TargetAttributes = {
+					A174ADDF1DF26A0400938083 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A174ADDB1DF26A0400938083 /* Build configuration list for PBXProject "TencentQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A174ADD71DF26A0400938083;
+			productRefGroup = A174ADE11DF26A0400938083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A174ADDF1DF26A0400938083 /* TencentQQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A174ADDE1DF26A0400938083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A174AE001DF27D1200938083 /* buddy_header_arrow_down@2x.png in Resources */,
+				A174ADF31DF26A0400938083 /* LaunchScreen.storyboard in Resources */,
+				A174ADF01DF26A0400938083 /* Assets.xcassets in Resources */,
+				A174AE011DF27D1200938083 /* buddy_header_arrow_right@2x.png in Resources */,
+				A174ADEE1DF26A0400938083 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E6CED2C79AE2411D8C626B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TencentQQ/Pods-TencentQQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D941FDCFF8CB26FF29E583BC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TencentQQ/Pods-TencentQQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16093933890DDF30F33C199 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A174ADDC1DF26A0400938083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A174ADEB1DF26A0400938083 /* ViewController.m in Sources */,
+				A174ADE81DF26A0400938083 /* AppDelegate.m in Sources */,
+				A174ADE51DF26A0400938083 /* main.m in Sources */,
+				A174ADFC1DF26D4B00938083 /* QQFriendCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A174ADEC1DF26A0400938083 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A174ADED1DF26A0400938083 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A174ADF11DF26A0400938083 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A174ADF21DF26A0400938083 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A174ADF51DF26A0400938083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A174ADF61DF26A0400938083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A174ADF81DF26A0400938083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B6B85EB59AD1A3F1F74BF2 /* Pods-TencentQQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TencentQQ/PrefixHeader.pch";
+				INFOPLIST_FILE = TencentQQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaocaiwang.TencentQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A174ADF91DF26A0400938083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1005C9FA0F54E26EB510F718 /* Pods-TencentQQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TencentQQ/PrefixHeader.pch";
+				INFOPLIST_FILE = TencentQQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaocaiwang.TencentQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A174ADDB1DF26A0400938083 /* Build configuration list for PBXProject "TencentQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A174ADF51DF26A0400938083 /* Debug */,
+				A174ADF61DF26A0400938083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A174ADF71DF26A0400938083 /* Build configuration list for PBXNativeTarget "TencentQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A174ADF81DF26A0400938083 /* Debug */,
+				A174ADF91DF26A0400938083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A174ADD81DF26A0400938083 /* Project object */;
+}
